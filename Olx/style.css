@@ -1,0 +1,160 @@
+*{
+    font-family: sans-serif ;
+}
+header{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.motor:hover{
+    color: blue;
+}
+.property:hover{
+    color: blue;
+}
+.olx-logo img{
+    width: 60px;
+}
+.section-1{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.select-1{
+    width: 25%;
+    height: 45px;
+}
+.find-things{
+    display: flex;
+}
+.find-things , input{
+    width: 60%;
+}
+.find-things div{
+    border: none;
+    background-color: #002f34;
+    width: 40px;
+    height: 46px;
+}
+.find-things div svg{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.login-button button{
+    background: none;
+    border: none;
+    text-decoration: underline;
+    color: #002f34;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+.sell-button button{
+    color: #002f34;
+    font-weight: bold;
+    font-size: large;
+    padding:  8px 20px;
+    background: none;
+    border: none;
+    border-left: 4px solid yellow;
+    border-bottom: 4px solid blue;
+    border-top: 4px solid cyan;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.lists{
+    margin-top: 30px;
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    justify-content: center;
+}
+.lists a {
+    text-decoration: none;
+    color: #002f34;
+}
+.lists span {
+    font-weight: bold;
+}
+.banner{
+    margin-top: 20px;
+}
+.banner img{
+    border-radius: 10px;
+    width: 99%;
+}
+.heading-1{
+    color: #002f34;
+    margin-left: 100px;
+}
+.categories{
+    display: flex;
+    justify-content: space-evenly;
+}
+.categories h4{
+    margin-left: 20px;
+}
+.categories img {
+    width: 100px;
+}
+.heading-2 h2{
+    color: #002f34;
+}
+.card-sec-1{
+    display: flex;
+    gap: 1rem;
+}
+.card-1{
+    border: 2px solid rgb(252, 232, 232);
+    width: 25%;
+}
+
+.card-2{
+    border: 2px solid rgb(252, 232, 232);
+    width: 25%;
+}
+
+.card-3{
+    border: 2px solid rgb(252, 232, 232);
+    width: 25%;
+}
+.card-4{
+    border: 2px solid rgb(252, 232, 232);
+    width: 25%;
+}
+.sec-5{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+.sec-5 svg{
+    width: 100px;    
+}
+.sec-5 img{
+    width: 500px;    
+}
+.before-footer{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+    background-color: #EBEEEF;
+    color: #002f34;
+    font-size: small;
+}
+.svg-div svg{
+    width: 25px;
+}
+.svg-div-2 svg{
+    width: 100px;
+}
+footer{
+    background-color: #002f34;
+    padding: 10px;
+    text-align: right;
+    color: white;
+}
